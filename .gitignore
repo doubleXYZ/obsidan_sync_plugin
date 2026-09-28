@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output (keep the generated main.js out of version control)
+main.js
+*.js.map
+*.d.ts.map
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local environment and test vaults
+.env
+.env.*
+!.env.example
+data.json
+.obsidian/
+test-vault/
+
+# TypeScript build cache
+*.tsbuildinfo
